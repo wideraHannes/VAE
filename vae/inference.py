@@ -3,7 +3,7 @@ import torchvision.datasets as datasets
 from torchvision import transforms
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
-from vae.model import VariationalAutoEncoder
+from vae.models import VariationalAutoEncoder
 from config.paths import IMAGES, STORAGE
 
 

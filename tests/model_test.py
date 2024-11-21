@@ -1,6 +1,6 @@
 import pytest
 import torch
-from vae.model import VariationalAutoEncoder
+from vae.models import VariationalAutoEncoder
 
 
 @pytest.fixture
