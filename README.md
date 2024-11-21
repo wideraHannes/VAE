@@ -4,6 +4,11 @@ This repository provides an implementation of a Variational Autoencoder (VAE) us
 
 ---
 
+## Inference
+
+Run `inference.py` to sample or reconstruct images.
+The images will appear in `/images`
+
 ## Variational Autoencoder (VAE): An Overview
 
 A Variational Autoencoder is a type of autoencoder that models the underlying data distribution through latent variables sampled from a probabilistic space. Unlike traditional autoencoders, VAEs are generative models capable of producing new data similar to the training set.
@@ -146,4 +151,5 @@ Latent Sigma Shape: torch.Size([4, 20])
 - [PyTorch Documentation](https://pytorch.org/docs/)
 
 ---
+
 # VAE
