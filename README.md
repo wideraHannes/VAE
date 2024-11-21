@@ -4,10 +4,12 @@ This repository provides an implementation of a Variational Autoencoder (VAE) us
 
 ---
 
-## Inference
+## Run
 
-Run `inference.py` to sample or reconstruct images.
+for inference run `poetry run inference` to sample or reconstruct images.
 The images will appear in `/images`
+
+for training run `poetry run train`
 
 ## Variational Autoencoder (VAE): An Overview
 
