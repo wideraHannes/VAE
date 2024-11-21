@@ -119,7 +119,7 @@ class VAETrainer:
         self.plot_losses(train_losses, val_losses)
 
 
-if __name__ == "__main__":
+def main():
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     INPUT_DIM = 784
     H_DIM = 200
@@ -130,3 +130,7 @@ if __name__ == "__main__":
 
     trainer = VAETrainer(INPUT_DIM, H_DIM, Z_DIM, BATCH_SIZE, LR, NUM_EPOCHS, DEVICE)
     trainer.train()
+
+
+if __name__ == "__main__":
+    main()

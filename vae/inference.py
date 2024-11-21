@@ -61,7 +61,7 @@ class VAEInference:
         plt.close()
 
 
-if __name__ == "__main__":
+def main():
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     INPUT_DIM = 784
     H_DIM = 200
@@ -71,3 +71,7 @@ if __name__ == "__main__":
     inference = VAEInference(MODEL_PATH, INPUT_DIM, H_DIM, Z_DIM, DEVICE)
     inference.inference()
     inference.sample()
+
+
+if __name__ == "__main__":
+    main()
