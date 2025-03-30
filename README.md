@@ -1,5 +1,7 @@
 # Variational Autoencoder (VAE)
 
+![Reconstruction](images/reconstructed_images.png)
+
 This repository provides an implementation of a Variational Autoencoder (VAE) using PyTorch. VAEs are a class of deep generative models designed to learn latent representations of data and generate new samples. This README introduces the fundamental concepts of VAEs, details the implementation provided, and guides you through the setup using Poetry.
 
 ---
